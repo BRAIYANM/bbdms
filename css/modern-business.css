@@ -1,0 +1,142 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.page-details{
+    background: ;
+    box-shadow: 0 0 40px rgba(208,208,208, 0.8);
+    min-height: 320px;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+}
+
+/*-------------------------------------------------
+    3.11. Login / Register / Forgot password
+-------------------------------------------------------*/
+
+.login_wrap, .signup_wrap {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+#loginform .modal-footer, #signupform .modal-footer, #forgotpassword .modal-footer {
+    text-align:center;
+    border-top:0px;
+}
+#loginform .modal-footer p, #signupform .modal-footer p, #forgotpassword .modal-footer p {
+    margin:0px;
+    font-size:14px;
+    color:#111;
+    line-height:22px;
+    font-weight:400;
+}
+.mid_divider {
+  border-left: 1px solid #d7d7d7;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top:0;
+}
+.btn.facebook-btn, .btn.facebook-btn:hover {
+    background:#3c5a98;
+}
+.btn.twitter-btn, .btn.twitter-btn:hover {
+    background:#28bcec;
+}
+.btn.googleplus-btn, .btn.googleplus-btn:hover {
+    background:#fe0000;
+}
+.btn.facebook-btn, .btn.twitter-btn, .btn.googleplus-btn {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 10px 22px;
+  text-align: left;
+}
+.btn.facebook-btn i, .btn.twitter-btn i, .btn.googleplus-btn i { 
+    font-size:26px;
+    margin-right:10px;
+}
+
+.gray_text {
+    color:#ccc;
+}
+.forgotpassword_wrap p {
+    margin:0 auto 15px;
+    max-width:80%;
+}
+
+/*------------------------
+    1.10. Modal
+--------------------------------*/
+.modal-dialog {
+  width: 650px;
+}
+.modal-content {
+  padding: 0 32px 22px;
+}
+.modal-header {
+    padding:15px 0;
+    margin-bottom:20px;
+}
+.modal-body {
+    padding:10px 0;
+}
+.modal .modal-header .close {
+  background: #000000 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 17px;
+  height: 31px;
+  line-height: 30px;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: center;
+  text-shadow: none;
+  width: 31px;
+}
+.modal-dialog {
+  margin: 20px auto;
+  width: 90%;
+}
+.mid_divider {
+    display:none;
+}
+.modal .gray_text {
+  margin-top: 50px;
+}
+.modal-content {
+  max-height: 400px;
+  overflow: auto;
+  padding: 0 20px 22px;
+}
+.modal-footer {
+    padding:15px 0;
+}
